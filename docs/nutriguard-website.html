@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NutriGuard AI - Nutrition Intelligence Platform</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      :root {
+        --primary: #4caf50;
+        --primary-dark: #388e3c;
+        --secondary: #2196f3;
+        --dark: #263238;
+        --light: #eceff1;
+        --white: #ffffff;
+        --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        --radius: 8px;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+          "Helvetica Neue", sans-serif;
+      }
+
+      body {
+        background-color: var(--light);
+        color: var(--dark);
+        line-height: 1.6;
+      }
+
+      /* Header */
+      header {
+        background: linear-gradient(
+          135deg,
+          var(--primary),
+          var(--primary-dark)
+        );
+        color: var(--white);
+        padding: 2rem 0;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+      }
+
+      header::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("https://images.unsplash.com/photo-1490818387583-1baba5e638af?q=80&w=1932&auto=format&fit=crop");
+        background-size: cover;
+        background-position: center;
+        opacity: 0.1;
+        z-index: 0;
+      }
+
+      .header-content {
+        position: relative;
+        z-index: 1;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      .logo {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+      }
+
+      .tagline {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        font-weight: 300;
+      }
+
+      .cta-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+
+      .cta-button {
+        background-color: var(--white);
+        color: var(--primary-dark);
+        padding: 0.75rem 1.5rem;
+        border-radius: var(--radius);
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        box-shadow: var(--shadow);
+      }
+
+      .cta-button:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+      }
+
+      .cta-button.secondary {
+        background-color: transparent;
+        color: var(--white);
+        border: 2px solid var(--white);
+      }
+
+      /* Main Content */
+      main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+      }
+
+      .section {
+        margin-bottom: 4rem;
+      }
+
+      .section-title {
+        font-size: 2rem;
+        color: var(--primary-dark);
+        margin-bottom: 1.5rem;
+        position: relative;
+        padding-bottom: 0.5rem;
+      }
+
+      .section-title::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 80px;
+        height: 4px;
+        background-color: var(--primary);
+        border-radius: 2px;
+      }
+
+      /* Problem Statement */
+      .problem-statement {
+        background-color: var(--white);
+        border-radius: var(--radius);
+        padding: 2rem;
+        box-shadow: var(--shadow);
+        margin-top: 1rem;
+      }
+
+      .problem-list {
+        margin-top: 1rem;
+        padding-left: 1.5rem;
+      }
+
+      .problem-list li {
+        margin-bottom: 0.75rem;
+      }
+
+      /* Features */
+      .features {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-top: 2rem;
+      }
+
+      .feature-card {
+        background-color: var(--white);
+        border-radius: var(--radius);
+        padding: 2rem;
+        box-shadow: var(--shadow);
+        transition: all 0.3s ease;
+      }
+
+      .feature-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .feature-icon {
+        font-size: 2.5rem;
+        color: var(--primary);
+        margin-bottom: 1rem;
+      }
+
+      .feature-title {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+        color: var(--dark);
+      }
+
+      /* Architecture */
+      .architecture {
+        background-color: var(--white);
+        border-radius: var(--radius);
+        padding: 2rem;
+        box-shadow: var(--shadow);
+      }
+
+      .diagram {
+        text-align: center;
+        margin: 2rem 0;
+      }
+
+      .components {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+        margin-top: 2rem;
+      }
+
+      .component-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+      }
+
+      .component-icon {
+        font-size: 1.5rem;
+        color: var(--secondary);
+      }
+
+      /* Tech Stack */
+      .tech-stack {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 1.5rem;
+        justify-content: center;
+      }
+
+      .tech-item {
+        background-color: var(--white);
+        border-radius: var(--radius);
+        padding: 0.75rem 1.25rem;
+        box-shadow: var(--shadow);
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .tech-icon {
+        font-size: 1.25rem;
+        color: var(--primary-dark);
+      }
+
+      /* Deployment */
+      .deployment-links {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-top: 2rem;
+      }
+
+      .deployment-card {
+        background-color: var(--white);
+        border-radius: var(--radius);
+        padding: 2rem;
+        box-shadow: var(--shadow);
+        text-align: center;
+        transition: all 0.3s ease;
+      }
+
+      .deployment-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .deployment-title {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+        color: var(--dark);
+      }
+
+      .deployment-url {
+        color: var(--secondary);
+        text-decoration: none;
+        font-weight: 600;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        transition: all 0.3s ease;
+      }
+
+      .deployment-url:hover {
+        color: var(--primary);
+      }
+
+      /* Footer */
+      footer {
+        background-color: var(--dark);
+        color: var(--white);
+        padding: 2rem 0;
+        text-align: center;
+      }
+
+      .footer-content {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .footer-links {
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+      }
+
+      .footer-link {
+        color: var(--light);
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+
+      .footer-link:hover {
+        color: var(--primary);
+      }
+
+      /* Responsive */
+      @media (max-width: 768px) {
+        .header-content {
+          padding: 1rem;
+        }
+
+        .logo {
+          font-size: 2rem;
+        }
+
+        .tagline {
+          font-size: 1.2rem;
+        }
+
+        .section-title {
+          font-size: 1.5rem;
+        }
+      }
+
+      /* Screenshots Gallery */
+      .screenshots {
+        margin-top: 2rem;
+      }
+
+      .screenshot-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        margin-top: 1.5rem;
+      }
+
+      .screenshot-item {
+        border-radius: var(--radius);
+        overflow: hidden;
+        box-shadow: var(--shadow);
+        transition: all 0.3s ease;
+        position: relative;
+      }
+
+      .screenshot-item:hover {
+        transform: scale(1.03);
+        box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+      }
+
+      .screenshot-caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: var(--white);
+        padding: 0.75rem;
+        font-size: 1rem;
+      }
+
+      .screenshot-img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+        display: block;
+      }
+      
+      /* Challenges and Limitations */
+      .challenges-limitations {
+        background-color: var(--white);
+        border-radius: var(--radius);
+        padding: 2rem;
+        box-shadow: var(--shadow);
+        margin-top: 1rem;
+      }
+      
+      .challenge-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-top: 1.5rem;
+      }
+      
+      .challenge-card {
+        border-left: 4px solid var(--secondary);
+        padding-left: 1rem;
+      }
+      
+      .challenge-title {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        color: var(--primary-dark);
+      }
+      
+      /* Inspiration */
+      .inspiration {
+        background-color: var(--white);
+        border-radius: var(--radius);
+        padding: 2rem;
+        box-shadow: var(--shadow);
+        margin-top: 1rem;
+        position: relative;
+      }
+      
+      .inspiration-quote {
+        font-style: italic;
+        color: var(--primary-dark);
+        font-size: 1.1rem;
+        margin: 1.5rem 0;
+        padding-left: 1rem;
+        border-left: 3px solid var(--primary);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <h1 class="logo">🥗 NutriGuard AI</h1>
+        <p class="tagline">End-to-End Nutrition Intelligence Platform</p>
+        <div class="cta-buttons">
+          <a
+            href="http://3.95.239.139:3000/"
+            target="_blank"
+            class="cta-button"
+          >
+            <i class="fas fa-external-link-alt"></i> Live Demo
+          </a>
+          <a
+            href="http://34.201.119.237:8001/docs"
+            target="_blank"
+            class="cta-button secondary"
+          >
+            <i class="fas fa-code"></i> API Documentation
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <h2 class="section-title">Problem Statement</h2>
+        <div class="problem-statement">
+          <p>In today's world, consumers face significant challenges in understanding food products' nutritional content and ingredient safety. Despite increasing health consciousness, these barriers prevent many from making fully informed food choices:</p>
+          <ul class="problem-list">
+            <li><strong>Complexity of nutrition labels:</strong> The average consumer struggles to interpret nutrition facts and ingredient lists, leading to confusion and missed information about potential allergens or harmful additives.</li>
+            <li><strong>Lack of ingredient knowledge:</strong> Most people cannot identify harmful additives or understand potential health implications of common food ingredients without extensive research.</li>
+            <li><strong>Difficult meal tracking:</strong> Traditional meal logging is tedious and time-consuming, discouraging consistent use and limiting the insights users can gain about their dietary patterns.</li>
+            <li><strong>Disconnected nutrition data:</strong> There's no unified system connecting food labels, ingredient analysis, and personalized meal tracking that provides an end-to-end solution.</li>
+            <li><strong>Limited accessibility to nutrition expertise:</strong> Professional nutritionist consultations are expensive and not readily available, creating a gap in personalized nutrition guidance.</li>
+          </ul>
+          <p>NutriGuard AI aims to solve these problems by creating an accessible, intelligent system that empowers users with personalized nutrition information and insights.</p>
+        </div>
+      </section>
+      
+      <section class="section">
+        <h2 class="section-title">Project Overview</h2>
+        <p>
+          NutriGuard AI is an advanced nutrition and ingredient assistant
+          platform that simplifies label reading, ingredient analysis, meal
+          logging, and nutrition insights. By leveraging Optical Character
+          Recognition (OCR), Retrieval-Augmented Generation (RAG), and Large
+          Language Models (LLMs), the platform provides users with actionable
+          insights about their food choices.
+        </p>
+        <p>
+          The system is fully containerized, featuring a FastAPI backend, modern
+          Next.js frontend, Azure Form Recognizer integration, Pinecone vector
+          databases, JWT authentication, and cloud deployment via AWS.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Key Features</h2>
+        <div class="features">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-camera"></i>
+            </div>
+            <h3 class="feature-title">OCR Label Reading</h3>
+            <p>
+              Upload images of nutrition labels for automatic extraction and
+              analysis of ingredients and nutrition facts using Azure Form
+              Recognizer and OpenAI.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-search"></i>
+            </div>
+            <h3 class="feature-title">Ingredient Analysis</h3>
+            <p>
+              Search and analyze food ingredients using RAG technology with FDA
+              databases to identify potential health concerns and nutritional
+              benefits.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-utensils"></i>
+            </div>
+            <h3 class="feature-title">Meal Tracking</h3>
+            <p>
+              Log meals with automatic macro estimation, view meal history, and
+              generate nutritional statistics to better understand eating
+              patterns.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-robot"></i>
+            </div>
+            <h3 class="feature-title">AI Nutritionist</h3>
+            <p>
+              Ask questions about your diet and receive personalized answers
+              using RAG technology over your meal history data for contextual
+              understanding.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">System Architecture</h2>
+        <div class="architecture">
+          <p>
+            NutriGuard AI implements a modern microservices architecture with
+            cloud-native deployment. The system integrates multiple technologies
+            to provide a seamless user experience.
+          </p>
+
+          <div class="diagram">
+            <img
+              src="img/architecture_diagram.png"
+              alt="Architecture Diagram"
+              width="700"
+            />
+          </div>
+
+          <div class="components">
+            <div class="component-item">
+              <div class="component-icon">
+                <i class="fas fa-server"></i>
+              </div>
+              <div>
+                <h4>Docker Containers</h4>
+                <p>All services containerized and deployed on AWS EC2</p>
+              </div>
+            </div>
+            <div class="component-item">
+              <div class="component-icon">
+                <i class="fas fa-database"></i>
+              </div>
+              <div>
+                <h4>PostgreSQL</h4>
+                <p>User data and meal logs hosted on AWS RDS</p>
+              </div>
+            </div>
+            <div class="component-item">
+              <div class="component-icon">
+                <i class="fas fa-vector-square"></i>
+              </div>
+              <div>
+                <h4>Pinecone Vector DB</h4>
+                <p>Ingredient knowledge base and meal tracking vectors</p>
+              </div>
+            </div>
+            <div class="component-item">
+              <div class="component-icon">
+                <i class="fas fa-brain"></i>
+              </div>
+              <div>
+                <h4>OpenAI Integration</h4>
+                <p>Natural language generation and RAG implementation</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Technology Stack</h2>
+        <div class="tech-stack">
+          <div class="tech-item">
+            <div class="tech-icon"><i class="fas fa-bolt"></i></div>
+            <span>FastAPI</span>
+          </div>
+          <div class="tech-item">
+            <div class="tech-icon"><i class="fab fa-react"></i></div>
+            <span>Next.js</span>
+          </div>
+          <div class="tech-item">
+            <div class="tech-icon"><i class="fab fa-docker"></i></div>
+            <span>Docker</span>
+          </div>
+          <div class="tech-item">
+            <div class="tech-icon"><i class="fab fa-aws"></i></div>
+            <span>AWS EC2/RDS</span>
+          </div>
+          <div class="tech-item">
+            <div class="tech-icon"><i class="fas fa-database"></i></div>
+            <span>PostgreSQL</span>
+          </div>
+          <div class="tech-item">
+            <div class="tech-icon"><i class="fas fa-vector-square"></i></div>
+            <span>Pinecone</span>
+          </div>
+          <div class="tech-item">
+            <div class="tech-icon"><i class="fab fa-microsoft"></i></div>
+            <span>Azure Form Recognizer</span>
+          </div>
+          <div class="tech-item">
+            <div class="tech-icon"><i class="fas fa-brain"></i></div>
+            <span>OpenAI</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Screenshots</h2>
+        <p>
+          Take a visual tour of NutriGuard AI's user-friendly interface and key
+          features.
+        </p>
+        <div class="screenshots">
+          <div class="screenshot-grid">
+            <div class="screenshot-item">
+              <img
+                src="img/login.PNG"
+                alt="Login Screen"
+                class="screenshot-img"
+              />
+              <div class="screenshot-caption">Login Interface</div>
+            </div>
+            <div class="screenshot-item">
+              <img src="img/ocr.PNG" alt="OCR Upload" class="screenshot-img" />
+              <div class="screenshot-caption">OCR Label Upload</div>
+            </div>
+            <div class="screenshot-item">
+              <img
+                src="img/ingredients.PNG"
+                alt="Ingredients Analysis"
+                class="screenshot-img"
+              />
+              <div class="screenshot-caption">Ingredient Analysis</div>
+            </div>
+            <div class="screenshot-item">
+              <img
+                src="img/journal.PNG"
+                alt="Meal Journal"
+                class="screenshot-img"
+              />
+              <div class="screenshot-caption">Meal Journal</div>
+            </div>
+            <div class="screenshot-item">
+              <img
+                src="img/chat.PNG"
+                alt="AI Nutritionist"
+                class="screenshot-img"
+              />
+              <div class="screenshot-caption">AI Nutritionist Chat</div>
+            </div>
+            <div class="screenshot-item">
+              <img
+                src="img/summary.PNG"
+                alt="Nutrition Summary"
+                class="screenshot-img"
+              />
+              <div class="screenshot-caption">Nutrition Summary</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="section">
+        <h2 class="section-title">Inspiration</h2>
+        <div class="inspiration">
+          <p>NutriGuard AI was inspired by the growing need for accessible nutrition information and the challenges people face when making informed food choices. Some key factors that motivated this project include:</p>
+          
+          <p class="inspiration-quote">"In an age of information overload, the ability to quickly understand what's in our food shouldn't require a degree in nutrition science."</p>
+          
+          <p>The project draws inspiration from several observations:</p>
+          <ul class="problem-list">
+            <li><strong>Increasing health consciousness:</strong> People are more concerned about nutrition than ever, yet tools haven't kept pace with this awareness.</li>
+            <li><strong>Democratizing nutrition knowledge:</strong> The gap between food science experts and everyday consumers needs to be bridged with accessible technology.</li>
+            <li><strong>AI revolution in healthcare:</strong> Recent advances in AI, particularly large language models and computer vision, can transform how we interact with nutrition information.</li>
+            <li><strong>Personal experiences:</strong> The frustration of manually tracking meals and researching ingredients highlighted the need for a more intelligent, automated solution.</li>
+          </ul>
+          
+          <p>By combining these inspirations with modern AI technologies, NutriGuard AI aims to revolutionize how people understand and interact with their nutrition data.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Challenges and Limitations</h2>
+        <div class="challenges-limitations">
+          <p>The development of NutriGuard AI encountered several technical and practical challenges. Understanding these challenges and current limitations helps frame the project's achievements and future development path:</p>
+          
+          <div class="challenge-grid">
+            <div class="challenge-card">
+              <h3 class="challenge-title">OCR Accuracy Challenges</h3>
+              <p>Nutrition labels vary widely in format, quality, and design. Extracting accurate data required extensive post-processing algorithms and validation techniques. Current limitations include difficulty with handwritten labels, non-standard formats, and poor image quality.</p>
+            </div>
+            
+            <div class="challenge-card">
+              <h3 class="challenge-title">RAG Implementation Complexities</h3>
+              <p>Building an effective retrieval system for FDA data required careful optimization of chunking strategies and embedding parameters. The system currently has limitations in handling complex queries that require multi-hop reasoning or extensive domain knowledge.</p>
+            </div>
+            
+            <div class="challenge-card">
+              <h3 class="challenge-title">Language Limitations</h3>
+              <p>The current system is optimized for English-language nutrition labels and may struggle with international variants or multilingual content. Expanding language support represents a significant future development challenge.</p>
+            </div>
+            
+            <div class="challenge-card">
+              <h3 class="challenge-title">Resource Constraints</h3>
+              <p>Balancing performance with cloud computing costs presented ongoing challenges, especially regarding API costs for Azure Form Recognizer and OpenAI services. Optimization strategies include caching mechanisms and efficient prompting.</p>
+            </div>
+          </div>
+          
+          <p style="margin-top: 2rem;"><strong>Future Development:</strong> These challenges inform our roadmap for future enhancements, including multi-language support, improved OCR capabilities, fine-tuned models for nutrition domain, and expanded knowledge bases with international ingredient databases.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Try It Now</h2>
+        <p>
+          NutriGuard AI is deployed and ready to use. Check out our live
+          deployments:
+        </p>
+        <div class="deployment-links">
+          <div class="deployment-card">
+            <h3 class="deployment-title">Frontend Application</h3>
+            <p>
+              Access the user interface to start analyzing nutrition labels and
+              tracking meals.
+            </p>
+            <a
+              href="http://3.95.239.139:3000/"
+              target="_blank"
+              class="deployment-url"
+            >
+              http://3.95.239.139:3000/ <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <div class="deployment-card">
+            <h3 class="deployment-title">Backend API</h3>
+            <p>
+              Explore the FastAPI documentation and endpoints for developers.
+            </p>
+            <a
+              href="http://34.201.119.237:8001/docs"
+              target="_blank"
+              class="deployment-url"
+            >
+              http://34.201.119.237:8001/docs
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>
+          NutriGuard AI - Making nutrition information accessible and actionable
+        </p>
+        <div class="footer-links">
+          <a href="http://3.95.239.139:3000/" class="footer-link">Demo</a>
+          <a href="http://34.201.119.237:8001/docs" class="footer-link">API</a>
+          <a href="#" class="footer-link">GitHub</a>
+          <a href="#" class="footer-link">Documentation</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
