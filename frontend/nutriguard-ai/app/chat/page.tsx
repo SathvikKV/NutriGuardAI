@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { getUserId } from "@/lib/auth";
 import { queryMealInsights, ingestMealData } from "@/services/api";
 import { Card, CardContent } from "@/components/ui/card";
@@ -25,8 +25,14 @@ export default function ChatPage() {
   ]);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const [userId, setUserId] = useState<string | null>(null);
 
-  const userId = getUserId();
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const id = getUserId();
+      setUserId(id?.toString() ?? null);
+    }
+  }, []);
   if (!userId) {
     return (
       <div className="min-h-screen flex items-center justify-center text-center p-4">
