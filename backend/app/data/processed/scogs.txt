@@ -1,0 +1,1524 @@
+ Gum Arabic
+Other Names:  acacia gum
+SCOGS Report Number: =T("1")
+----------------------------------------
+ Butylated Hydroxytoluene (BHT)
+Other Names:  BHT
+SCOGS Report Number: =T("2")
+----------------------------------------
+ Carob Bean Gum
+Other Names: nan
+SCOGS Report Number: =T("3")
+----------------------------------------
+ Gum Tragacanth
+Other Names: nan
+SCOGS Report Number: =T("4")
+----------------------------------------
+ Sterculia Gum (karaya gum)
+Other Names: nan
+SCOGS Report Number: =T("5")
+----------------------------------------
+ Carrageenan
+Other Names: nan
+SCOGS Report Number: =T("6")
+----------------------------------------
+ Sodium Benzoate
+Other Names: nan
+SCOGS Report Number: =T("7")
+----------------------------------------
+ Benzoic Acid
+Other Names: nan
+SCOGS Report Number: =T("7")
+----------------------------------------
+ Propyl Paraben
+Other Names:  propyl p-hydroxybenzoate
+SCOGS Report Number: =T("8")
+----------------------------------------
+ Methyl Paraben
+Other Names:  methyl p-hydroxybenzoate
+SCOGS Report Number: =T("8")
+----------------------------------------
+ Sorbitol
+Other Names: nan
+SCOGS Report Number: =T("9")
+----------------------------------------
+ Mannitol
+Other Names: nan
+SCOGS Report Number: =T("10")
+----------------------------------------
+ Propyl Gallate
+Other Names: nan
+SCOGS Report Number: =T("11")
+----------------------------------------
+ Gum Ghatti
+Other Names: nan
+SCOGS Report Number: =T("12")
+----------------------------------------
+ Guar Gum
+Other Names: nan
+SCOGS Report Number: =T("13")
+----------------------------------------
+ Oil of Rue
+Other Names: nan
+SCOGS Report Number: =T("14")
+----------------------------------------
+ Sulfur dioxide
+Other Names: nan
+SCOGS Report Number: =T("15")
+----------------------------------------
+ Sodium sulfite
+Other Names: nan
+SCOGS Report Number: =T("15")
+----------------------------------------
+ Sodium metabisulfite
+Other Names: nan
+SCOGS Report Number: =T("15")
+----------------------------------------
+ Sodium bisulfite
+Other Names: nan
+SCOGS Report Number: =T("15")
+----------------------------------------
+ Potassium metabisulfite
+Other Names: nan
+SCOGS Report Number: =T("15")
+----------------------------------------
+ Mustard and Oil of Mustard (Brown and Yellow)
+Other Names: nan
+SCOGS Report Number: =T("16")
+----------------------------------------
+ p-Hydroxybenzyl isothiocyanate
+Other Names:  4-hydroxybenzyl isothiocyanate; 4-(thioisocyanatomethyl)phenol
+SCOGS Report Number: =T("16")
+----------------------------------------
+ Allyl isothiocyanate
+Other Names:  3-isothiocyanato-1-propene
+SCOGS Report Number: =T("16")
+----------------------------------------
+ Garlic and Oil of Garlic
+Other Names: nan
+SCOGS Report Number: =T("17")
+----------------------------------------
+ Nutmeg and Mace
+Other Names: nan
+SCOGS Report Number: =T("18")
+----------------------------------------
+ Clove Stem Oil
+Other Names: nan
+SCOGS Report Number: =T("19")
+----------------------------------------
+ Clove Leaf Oil
+Other Names: nan
+SCOGS Report Number: =T("19")
+----------------------------------------
+ Clove Bud Oleoresin
+Other Names: nan
+SCOGS Report Number: =T("19")
+----------------------------------------
+ Clove Bud Oil
+Other Names: nan
+SCOGS Report Number: =T("19")
+----------------------------------------
+ Clove Bud Extract
+Other Names: nan
+SCOGS Report Number: =T("19")
+----------------------------------------
+ Caramel
+Other Names: nan
+SCOGS Report Number: =T("20")
+----------------------------------------
+ Zinc sulfate
+Other Names: nan
+SCOGS Report Number: =T("21")
+----------------------------------------
+ Zinc oxide
+Other Names: nan
+SCOGS Report Number: =T("21")
+----------------------------------------
+ Zinc chloride
+Other Names: nan
+SCOGS Report Number: =T("21")
+----------------------------------------
+ Zinc carbonate
+Other Names: nan
+SCOGS Report Number: =T("21")
+----------------------------------------
+ Zinc acetate
+Other Names: nan
+SCOGS Report Number: =T("21")
+----------------------------------------
+ Indian Dill Seed
+Other Names:  dill oils
+SCOGS Report Number: =T("22")
+----------------------------------------
+ Agar-agar
+Other Names: nan
+SCOGS Report Number: =T("23")
+----------------------------------------
+ Sodium alginate
+Other Names: nan
+SCOGS Report Number: =T("24")
+----------------------------------------
+ Propylene glycol alginate
+Other Names: nan
+SCOGS Report Number: =T("24")
+----------------------------------------
+ Potassium alginate
+Other Names: nan
+SCOGS Report Number: =T("24")
+----------------------------------------
+ Calcium alginate
+Other Names: nan
+SCOGS Report Number: =T("24")
+----------------------------------------
+ Ammonium alginate
+Other Names: nan
+SCOGS Report Number: =T("24")
+----------------------------------------
+ Sodium Carboxymethyl cellulose
+Other Names: nan
+SCOGS Report Number: =T("25")
+----------------------------------------
+ Methylcellulose
+Other Names: nan
+SCOGS Report Number: =T("25")
+----------------------------------------
+ Hydroxypropylmethyl cellulose
+Other Names: nan
+SCOGS Report Number: =T("25")
+----------------------------------------
+ Ethyl cellulose (packaging)
+Other Names: nan
+SCOGS Report Number: =T("25")
+----------------------------------------
+ Cellulose, microcrystalline
+Other Names: nan
+SCOGS Report Number: =T("25")
+----------------------------------------
+ Cellulose acetate(packaging)
+Other Names: nan
+SCOGS Report Number: =T("25")
+----------------------------------------
+ Cellulose
+Other Names: nan
+SCOGS Report Number: =T("25")
+----------------------------------------
+ Carboxymethyl cellulose (packaging)
+Other Names: nan
+SCOGS Report Number: =T("25")
+----------------------------------------
+ Sodium sesquicarbonate
+Other Names: nan
+SCOGS Report Number: =T("26")
+----------------------------------------
+ Sodium carbonate
+Other Names: nan
+SCOGS Report Number: =T("26")
+----------------------------------------
+ Sodium bicarbonate
+Other Names: nan
+SCOGS Report Number: =T("26")
+----------------------------------------
+ Potassium carbonate
+Other Names: nan
+SCOGS Report Number: =T("26")
+----------------------------------------
+ Potassium bicarbonate
+Other Names: nan
+SCOGS Report Number: =T("26")
+----------------------------------------
+ Calcium carbonate
+Other Names: nan
+SCOGS Report Number: =T("26")
+----------------------------------------
+ Propylene glycol monostearate
+Other Names: nan
+SCOGS Report Number: =T("27")
+----------------------------------------
+ Propylene glycol
+Other Names: nan
+SCOGS Report Number: =T("27")
+----------------------------------------
+ Licorice
+Other Names: nan
+SCOGS Report Number: =T("28")
+----------------------------------------
+ Ammoniated Glycyrrhizin
+Other Names: nan
+SCOGS Report Number: =T("28")
+----------------------------------------
+ Glycyrrhiza
+Other Names:  licorice extract
+SCOGS Report Number: =T("28")
+----------------------------------------
+ Caprylic Acid
+Other Names:  octanoic acid
+SCOGS Report Number: =T("29")
+----------------------------------------
+ Glycerin and Glycerides
+Other Names: nan
+SCOGS Report Number: =T("30")
+----------------------------------------
+ Stannous Chloride
+Other Names:  tin(II) chloride
+SCOGS Report Number: =T("31")
+----------------------------------------
+ Sodium tripolyphosphate
+Other Names: nan
+SCOGS Report Number: =T("32")
+----------------------------------------
+ Sodium trimetaphosphate
+Other Names: nan
+SCOGS Report Number: =T("32")
+----------------------------------------
+ Sodium tetraphosphate
+Other Names: nan
+SCOGS Report Number: =T("32")
+----------------------------------------
+ Sodium tetrametaphosphate
+Other Names: nan
+SCOGS Report Number: =T("32")
+----------------------------------------
+ Sodium pyrophosphate, tetrabasic
+Other Names: nan
+SCOGS Report Number: =T("32")
+----------------------------------------
+ Sodium phosphate tribasic
+Other Names: nan
+SCOGS Report Number: =T("32")
+----------------------------------------
+ Sodium phosphate monobasic
+Other Names: nan
+SCOGS Report Number: =T("32")
+----------------------------------------
+ Sodium phosphate dibasic
+Other Names: nan
+SCOGS Report Number: =T("32")
+----------------------------------------
+ Sodium metaphosphate
+Other Names: nan
+SCOGS Report Number: =T("32")
+----------------------------------------
+ Sodium hexametaphosphate
+Other Names: nan
+SCOGS Report Number: =T("32")
+----------------------------------------
+ Sodium acid pyrophosphate
+Other Names: nan
+SCOGS Report Number: =T("32")
+----------------------------------------
+ Potassium tripolyphosphate
+Other Names: nan
+SCOGS Report Number: =T("32")
+----------------------------------------
+ Potassium pyrophosphate
+Other Names: nan
+SCOGS Report Number: =T("32")
+----------------------------------------
+ Potassium polymetaphosphate
+Other Names: nan
+SCOGS Report Number: =T("32")
+----------------------------------------
+ Potassium phosphate tribasic
+Other Names: nan
+SCOGS Report Number: =T("32")
+----------------------------------------
+ Potassium phosphate monobasic
+Other Names: nan
+SCOGS Report Number: =T("32")
+----------------------------------------
+ Potassium phosphate dibasic
+Other Names: nan
+SCOGS Report Number: =T("32")
+----------------------------------------
+ Phosphoric acid
+Other Names: nan
+SCOGS Report Number: =T("32")
+----------------------------------------
+ Calcium pyrophosphate
+Other Names: nan
+SCOGS Report Number: =T("32")
+----------------------------------------
+ Calcium phosphate tribasic
+Other Names: nan
+SCOGS Report Number: =T("32")
+----------------------------------------
+ Calcium phosphate monobasic
+Other Names: nan
+SCOGS Report Number: =T("32")
+----------------------------------------
+ Calcium phosphate dibasic
+Other Names: nan
+SCOGS Report Number: =T("32")
+----------------------------------------
+ Calcium hexametaphosphate
+Other Names: nan
+SCOGS Report Number: =T("32")
+----------------------------------------
+ Ammonium phosphate monobasic (Report 32)
+Other Names: nan
+SCOGS Report Number: =T("32")
+----------------------------------------
+ Ammonium phosphate dibasic (Report 32)
+Other Names: nan
+SCOGS Report Number: =T("32")
+----------------------------------------
+ Sulfuric Acid
+Other Names: nan
+SCOGS Report Number: =T("33")
+----------------------------------------
+ Ammonium sulfate
+Other Names: nan
+SCOGS Report Number: =T("34")
+----------------------------------------
+ Ammonium phosphate monobasic (Report 34)
+Other Names: nan
+SCOGS Report Number: =T("34")
+----------------------------------------
+ Ammonium phosphate dibasic (Report 34)
+Other Names: nan
+SCOGS Report Number: =T("34")
+----------------------------------------
+ Ammonium hydroxide
+Other Names: nan
+SCOGS Report Number: =T("34")
+----------------------------------------
+ Ammonium chloride
+Other Names: nan
+SCOGS Report Number: =T("34")
+----------------------------------------
+ Ammonium carbonate
+Other Names: nan
+SCOGS Report Number: =T("34")
+----------------------------------------
+ Ammonium bicarbonate
+Other Names: nan
+SCOGS Report Number: =T("34")
+----------------------------------------
+ Sodium ferricitropyrophosphate
+Other Names:  iron(III) pyrophosphate, soluble
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Sodium ferric EDTA
+Other Names:  iron(III) sodium ethylenediaminetetraacetate; monosodium iron EDTA
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Reduced iron (packaging)
+Other Names: nan
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Reduced iron
+Other Names:  iron
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Iron, elemental (packaging)
+Other Names: nan
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Iron tallate (packaging)
+Other Names:  tall oil fatty acids, iron salts
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Iron polyvinylpyrrolidone
+Other Names:  iron povidone
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Iron peptonate
+Other Names:  iron, peptonized
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Iron oxides (packaging)
+Other Names:  iron oxides
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Iron naphthenate
+Other Names:  naphthenic acids, iron salts
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Iron linoleate (packaging)
+Other Names:  iron 9,12-octadecadienoate, (Z,Z)-
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Iron caprylate (packaging)
+Other Names:  iron octanoate
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Ferrous sulfate (packaging)
+Other Names:  iron(II) sulfate
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Ferrous sulfate
+Other Names:  iron(II) sulfate
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Ferrous lactate
+Other Names:  iron(II) lactate
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Ferrous gluconate
+Other Names:  iron(II) gluconate
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Ferrous fumarate
+Other Names:  iron(II) fumarate
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Ferrous citrate
+Other Names:  iron(II) citrate
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Ferrous carbonate
+Other Names:  iron(II) carbonate
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Ferrous ascorbate
+Other Names:  iron(II) ascorbate
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Ferric sulfate (packaging)
+Other Names:  iron(III) sulfate
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Ferric sodium pyrophosphate
+Other Names:  iron(III) sodium pyrophosphate
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Ferric pyrophosphate
+Other Names:  iron(III) pyrophosphate
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Ferric phosphate
+Other Names:  iron(III) phosphate
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Ferric oxide (packaging)
+Other Names:  iron(III) oxide
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Ferric oxide
+Other Names:  iron(III) oxide
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Ferric citrate
+Other Names:  iron(III) citrate
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Ferric chloride (packaging)
+Other Names:  iron(III) chloride
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Ferric ammonium citrate
+Other Names:  ammonium iron(III) citrate
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Electrolytic Iron (packaging)
+Other Names: nan
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Electrolytic Iron
+Other Names: nan
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Carbonyl Iron (packaging)
+Other Names: nan
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Carbonyl Iron
+Other Names: nan
+SCOGS Report Number: =T("35")
+----------------------------------------
+ Tocopherols
+Other Names: nan
+SCOGS Report Number: =T("36")
+----------------------------------------
+ alpha-Tocopherol acetate
+Other Names:  alpha-tocopheryl acetate
+SCOGS Report Number: =T("36")
+----------------------------------------
+ Red algae
+Other Names: nan
+SCOGS Report Number: =T("38")
+----------------------------------------
+ Brown algae
+Other Names: nan
+SCOGS Report Number: =T("38")
+----------------------------------------
+ Potassium iodide
+Other Names: nan
+SCOGS Report Number: =T("39")
+----------------------------------------
+ Potassium iodate
+Other Names: nan
+SCOGS Report Number: =T("39")
+----------------------------------------
+ Calcium iodate
+Other Names: nan
+SCOGS Report Number: =T("39")
+----------------------------------------
+ Pulps (packaging)
+Other Names: nan
+SCOGS Report Number: =T("40")
+----------------------------------------
+ Aconitic Acid
+Other Names: nan
+SCOGS Report Number: =T("41")
+----------------------------------------
+ Choline Chloride
+Other Names: nan
+SCOGS Report Number: =T("42")
+----------------------------------------
+ Choline Bitartrate
+Other Names: nan
+SCOGS Report Number: =T("42")
+----------------------------------------
+ Sodium phosphoaluminate (packaging)
+Other Names: nan
+SCOGS Report Number: =T("43")
+----------------------------------------
+ Sodium aluminum phosphate, basic
+Other Names: nan
+SCOGS Report Number: =T("43")
+----------------------------------------
+ Sodium aluminum phosphate, acidic
+Other Names: nan
+SCOGS Report Number: =T("43")
+----------------------------------------
+ Sodium aluminate (packaging)
+Other Names: nan
+SCOGS Report Number: =T("43")
+----------------------------------------
+ Aluminum sulfate
+Other Names: nan
+SCOGS Report Number: =T("43")
+----------------------------------------
+ Aluminum sodium sulfate
+Other Names: nan
+SCOGS Report Number: =T("43")
+----------------------------------------
+ Aluminum potassium sulfate
+Other Names: nan
+SCOGS Report Number: =T("43")
+----------------------------------------
+ Aluminum palmitate (packaging)
+Other Names: nan
+SCOGS Report Number: =T("43")
+----------------------------------------
+ Aluminum oleate (packaging)
+Other Names: nan
+SCOGS Report Number: =T("43")
+----------------------------------------
+ Aluminum hydroxide
+Other Names: nan
+SCOGS Report Number: =T("43")
+----------------------------------------
+ Aluminum ammonium sulfate
+Other Names: nan
+SCOGS Report Number: =T("43")
+----------------------------------------
+ Taurocholic acid
+Other Names: nan
+SCOGS Report Number: =T("44")
+----------------------------------------
+ Ox bile extract
+Other Names: nan
+SCOGS Report Number: =T("44")
+----------------------------------------
+ Glycocholic acid
+Other Names: nan
+SCOGS Report Number: =T("44")
+----------------------------------------
+ Desoxycholic acid
+Other Names: nan
+SCOGS Report Number: =T("44")
+----------------------------------------
+ Cholic acid
+Other Names: nan
+SCOGS Report Number: =T("44")
+----------------------------------------
+ Calcium phytate
+Other Names: nan
+SCOGS Report Number: =T("45")
+----------------------------------------
+ Calcium gluconate
+Other Names: nan
+SCOGS Report Number: =T("45")
+----------------------------------------
+ Calcium chloride
+Other Names: nan
+SCOGS Report Number: =T("45")
+----------------------------------------
+ Calcium acetate
+Other Names: nan
+SCOGS Report Number: =T("45")
+----------------------------------------
+ Carnauba wax
+Other Names: nan
+SCOGS Report Number: =T("47")
+----------------------------------------
+ Tannic acid (hydrolyzable gallotannins)
+Other Names: nan
+SCOGS Report Number: =T("48")
+----------------------------------------
+ Sorbose (packaging)
+Other Names: nan
+SCOGS Report Number: =T("49")
+----------------------------------------
+ Invert Sugar
+Other Names: nan
+SCOGS Report Number: =T("50")
+----------------------------------------
+ Corn Syrup
+Other Names: nan
+SCOGS Report Number: =T("50")
+----------------------------------------
+ Corn Sugar (Dextrose)
+Other Names: nan
+SCOGS Report Number: =T("50")
+----------------------------------------
+ Inositol
+Other Names: nan
+SCOGS Report Number: =T("51")
+----------------------------------------
+ Sodium thiosulfate
+Other Names: nan
+SCOGS Report Number: =T("52")
+----------------------------------------
+ Succinic acid
+Other Names: nan
+SCOGS Report Number: =T("53")
+----------------------------------------
+ Tallow (packaging)
+Other Names: nan
+SCOGS Report Number: =T("54")
+----------------------------------------
+ Stearic acid (packaging)
+Other Names: nan
+SCOGS Report Number: =T("54")
+----------------------------------------
+ Hydrogenated tallow (packaging)
+Other Names: nan
+SCOGS Report Number: =T("54")
+----------------------------------------
+ Calcium stearate
+Other Names: nan
+SCOGS Report Number: =T("54")
+----------------------------------------
+ Butylated Hydroxyanisole (BHA)
+Other Names: nan
+SCOGS Report Number: =T("55")
+----------------------------------------
+ L-Malic acid
+Other Names: nan
+SCOGS Report Number: =T("56")
+----------------------------------------
+ Malic acid
+Other Names: nan
+SCOGS Report Number: =T("56")
+----------------------------------------
+ Sorbic acid
+Other Names: nan
+SCOGS Report Number: =T("57")
+----------------------------------------
+ Sodium sorbate
+Other Names: nan
+SCOGS Report Number: =T("57")
+----------------------------------------
+ Potassium sorbate
+Other Names: nan
+SCOGS Report Number: =T("57")
+----------------------------------------
+ Calcium sorbate
+Other Names: nan
+SCOGS Report Number: =T("57")
+----------------------------------------
+ Gelatin
+Other Names: nan
+SCOGS Report Number: =T("58")
+----------------------------------------
+ Sodium L-ascorbate
+Other Names: nan
+SCOGS Report Number: =T("59")
+----------------------------------------
+ Sodium erythorbate (sodium D-isoascorbate)
+Other Names: nan
+SCOGS Report Number: =T("59")
+----------------------------------------
+ Erythorbic acid (D-isoascorbic acid)
+Other Names: nan
+SCOGS Report Number: =T("59")
+----------------------------------------
+ Calcium L-ascorbate
+Other Names: nan
+SCOGS Report Number: =T("59")
+----------------------------------------
+ Ascorbyl palmitate (palmitoyl L-ascorbic)
+Other Names: nan
+SCOGS Report Number: =T("59")
+----------------------------------------
+ L-Ascorbic acid
+Other Names: nan
+SCOGS Report Number: =T("59")
+----------------------------------------
+ Magnesium sulfate
+Other Names: nan
+SCOGS Report Number: =T("60")
+----------------------------------------
+ Magnesium stearate
+Other Names: nan
+SCOGS Report Number: =T("60")
+----------------------------------------
+ Magnesium phosphate, tribasic
+Other Names: nan
+SCOGS Report Number: =T("60")
+----------------------------------------
+ Magnesium phosphate, dibasic
+Other Names: nan
+SCOGS Report Number: =T("60")
+----------------------------------------
+ Magnesium oxide
+Other Names: nan
+SCOGS Report Number: =T("60")
+----------------------------------------
+ Magnesium hydroxide
+Other Names: nan
+SCOGS Report Number: =T("60")
+----------------------------------------
+ Magnesium chloride
+Other Names: nan
+SCOGS Report Number: =T("60")
+----------------------------------------
+ Magnesium carbonate
+Other Names: nan
+SCOGS Report Number: =T("60")
+----------------------------------------
+ Tricalcium silicate
+Other Names: nan
+SCOGS Report Number: =T("61")
+----------------------------------------
+ Talc (basic magnesium silicate)
+Other Names: nan
+SCOGS Report Number: =T("61")
+----------------------------------------
+ Sodium silicate
+Other Names: nan
+SCOGS Report Number: =T("61")
+----------------------------------------
+ Sodium calcium aluminosilicate
+Other Names: nan
+SCOGS Report Number: =T("61")
+----------------------------------------
+ Sodium aluminosilicate
+Other Names: nan
+SCOGS Report Number: =T("61")
+----------------------------------------
+ Silicon dioxides
+Other Names: nan
+SCOGS Report Number: =T("61")
+----------------------------------------
+ Silica aerogel
+Other Names: nan
+SCOGS Report Number: =T("61")
+----------------------------------------
+ Potassium silicate
+Other Names: nan
+SCOGS Report Number: =T("61")
+----------------------------------------
+ Perlite (filter aid)
+Other Names: nan
+SCOGS Report Number: =T("61")
+----------------------------------------
+ Magnesium silicate
+Other Names: nan
+SCOGS Report Number: =T("61")
+----------------------------------------
+ Diatomaceous earth (filter aid)
+Other Names: nan
+SCOGS Report Number: =T("61")
+----------------------------------------
+ Calcium silicate
+Other Names: nan
+SCOGS Report Number: =T("61")
+----------------------------------------
+ Aluminum calcium silicate
+Other Names: nan
+SCOGS Report Number: =T("61")
+----------------------------------------
+ Sulfamic acid (packaging)
+Other Names: nan
+SCOGS Report Number: =T("62")
+----------------------------------------
+ Zinc hydrosulfite (packaging)
+Other Names: nan
+SCOGS Report Number: =T("63")
+----------------------------------------
+ Sodium hydrosulfite (packaging)
+Other Names: nan
+SCOGS Report Number: =T("63")
+----------------------------------------
+ Gum guaiac
+Other Names: nan
+SCOGS Report Number: =T("64")
+----------------------------------------
+ Peanut oil (packaging)
+Other Names: nan
+SCOGS Report Number: =T("65")
+----------------------------------------
+ Oleic acid (packaging)
+Other Names: nan
+SCOGS Report Number: =T("65")
+----------------------------------------
+ Linoleic acid
+Other Names: nan
+SCOGS Report Number: =T("65")
+----------------------------------------
+ Coconut oil (packaging)
+Other Names: nan
+SCOGS Report Number: =T("65")
+----------------------------------------
+ Fish oil, hydrogenated (packaging)
+Other Names: nan
+SCOGS Report Number: =T("66")
+----------------------------------------
+ Manganous sulfate
+Other Names:  manganese(II) sulfate
+SCOGS Report Number: =T("67")
+----------------------------------------
+ Manganous oxide
+Other Names: nan
+SCOGS Report Number: =T("67")
+----------------------------------------
+ Manganous gluconate
+Other Names:  manganese gluconate
+SCOGS Report Number: =T("67")
+----------------------------------------
+ Manganous citrate
+Other Names:  manganese citrate
+SCOGS Report Number: =T("67")
+----------------------------------------
+ Manganous chloride
+Other Names:  manganese dichloride
+SCOGS Report Number: =T("67")
+----------------------------------------
+ Tall oil (packaging)
+Other Names: nan
+SCOGS Report Number: =T("68")
+----------------------------------------
+ Sucrose
+Other Names: nan
+SCOGS Report Number: =T("69")
+----------------------------------------
+ Hydrogenated soybean oil
+Other Names: nan
+SCOGS Report Number: =T("70")
+----------------------------------------
+ Sodium formate (packaging)
+Other Names: nan
+SCOGS Report Number: =T("71")
+----------------------------------------
+ Formic acid (packaging)
+Other Names: nan
+SCOGS Report Number: =T("71")
+----------------------------------------
+ Ethyl formate
+Other Names: nan
+SCOGS Report Number: =T("71")
+----------------------------------------
+ Calcium oxide
+Other Names: nan
+SCOGS Report Number: =T("72")
+----------------------------------------
+ Calcium hydroxide
+Other Names: nan
+SCOGS Report Number: =T("72")
+----------------------------------------
+ Sodium hypophosphite
+Other Names: nan
+SCOGS Report Number: =T("73")
+----------------------------------------
+ Potassium hypophosphite
+Other Names: nan
+SCOGS Report Number: =T("73")
+----------------------------------------
+ Manganous hypophosphite
+Other Names:  manganese(II) hypophosphite
+SCOGS Report Number: =T("73")
+----------------------------------------
+ Calcium hypophosphite
+Other Names: nan
+SCOGS Report Number: =T("73")
+----------------------------------------
+ Potassium glycerophosphate
+Other Names: nan
+SCOGS Report Number: =T("74")
+----------------------------------------
+ Manganese glycerophosphate
+Other Names: nan
+SCOGS Report Number: =T("74")
+----------------------------------------
+ Magnesium glycerophosphate (packaging)
+Other Names: nan
+SCOGS Report Number: =T("74")
+----------------------------------------
+ Calcium glycerophosphate (packaging)
+Other Names: nan
+SCOGS Report Number: =T("74")
+----------------------------------------
+ Calcium glycerophosphate
+Other Names: nan
+SCOGS Report Number: =T("74")
+----------------------------------------
+ Corn dextrins (packaging)
+Other Names: nan
+SCOGS Report Number: =T("75")
+----------------------------------------
+ Dextrins
+Other Names: nan
+SCOGS Report Number: =T("75")
+----------------------------------------
+ Rennet
+Other Names: nan
+SCOGS Report Number: =T("76")
+----------------------------------------
+ Papain
+Other Names: nan
+SCOGS Report Number: =T("77")
+----------------------------------------
+ Zinc gluconate
+Other Names: nan
+SCOGS Report Number: =T("78")
+----------------------------------------
+ Sodium gluconate
+Other Names: nan
+SCOGS Report Number: =T("78")
+----------------------------------------
+ Potassium gluconate
+Other Names: nan
+SCOGS Report Number: =T("78")
+----------------------------------------
+ Magnesium gluconate
+Other Names: nan
+SCOGS Report Number: =T("78")
+----------------------------------------
+ Thiodipropionic acid
+Other Names: nan
+SCOGS Report Number: =T("79")
+----------------------------------------
+ Sodium propionate
+Other Names: nan
+SCOGS Report Number: =T("79")
+----------------------------------------
+ Propionic acid
+Other Names: nan
+SCOGS Report Number: =T("79")
+----------------------------------------
+ Dilauryl thiodipropionate
+Other Names: nan
+SCOGS Report Number: =T("79")
+----------------------------------------
+ Calcium propionate
+Other Names: nan
+SCOGS Report Number: =T("79")
+----------------------------------------
+ Adipic acid
+Other Names:  hexanedioic acid
+SCOGS Report Number: =T("80")
+----------------------------------------
+ Pectinic acid
+Other Names: nan
+SCOGS Report Number: =T("81")
+----------------------------------------
+ Pectinates
+Other Names: nan
+SCOGS Report Number: =T("81")
+----------------------------------------
+ Pectin, low acid
+Other Names: nan
+SCOGS Report Number: =T("81")
+----------------------------------------
+ Pectin, high ester
+Other Names: nan
+SCOGS Report Number: =T("81")
+----------------------------------------
+ Pectin, amidated
+Other Names: nan
+SCOGS Report Number: =T("81")
+----------------------------------------
+ Sodium diacetate
+Other Names: nan
+SCOGS Report Number: =T("82")
+----------------------------------------
+ Sodium acetate
+Other Names: nan
+SCOGS Report Number: =T("82")
+----------------------------------------
+ Acetic acid
+Other Names: nan
+SCOGS Report Number: =T("82")
+----------------------------------------
+ Dextran
+Other Names: nan
+SCOGS Report Number: =T("83")
+----------------------------------------
+ Triethyl citrate
+Other Names: nan
+SCOGS Report Number: =T("84")
+----------------------------------------
+ Stearyl citrate
+Other Names: nan
+SCOGS Report Number: =T("84")
+----------------------------------------
+ Sodium citrate
+Other Names: nan
+SCOGS Report Number: =T("84")
+----------------------------------------
+ Potassium citrate
+Other Names: nan
+SCOGS Report Number: =T("84")
+----------------------------------------
+ Isopropyl citrate
+Other Names: nan
+SCOGS Report Number: =T("84")
+----------------------------------------
+ Citric acid
+Other Names: nan
+SCOGS Report Number: =T("84")
+----------------------------------------
+ Calcium citrate
+Other Names: nan
+SCOGS Report Number: =T("84")
+----------------------------------------
+ Ammonium citrate
+Other Names: nan
+SCOGS Report Number: =T("84")
+----------------------------------------
+ Sodium hydroxide
+Other Names: nan
+SCOGS Report Number: =T("85")
+----------------------------------------
+ Potassium hydroxide
+Other Names: nan
+SCOGS Report Number: =T("85")
+----------------------------------------
+ Sodium palmitate (packaging)
+Other Names: nan
+SCOGS Report Number: =T("86")
+----------------------------------------
+ Sodium oleate (packaging)
+Other Names: nan
+SCOGS Report Number: =T("86")
+----------------------------------------
+ Corn silk
+Other Names: nan
+SCOGS Report Number: =T("87")
+----------------------------------------
+ Methyl acrylate, polymeric (packaging)
+Other Names:  poly(methyl acrylate), polymethyl acrylate
+SCOGS Report Number: =T("88")
+----------------------------------------
+ Methyl acrylate, monomeric (packaging)
+Other Names: nan
+SCOGS Report Number: =T("88")
+----------------------------------------
+ Ethyl acrylate, polymeric (packaging)
+Other Names:  poly(ethyl acrylate), polyethyl acrylate
+SCOGS Report Number: =T("88")
+----------------------------------------
+ Ethyl acrylate, monomeric (packaging)
+Other Names: nan
+SCOGS Report Number: =T("88")
+----------------------------------------
+ Caffeine
+Other Names: nan
+SCOGS Report Number: =T("89")
+----------------------------------------
+ Clay (kaolin) (packaging)
+Other Names: nan
+SCOGS Report Number: =T("90")
+----------------------------------------
+ Bentonite
+Other Names: nan
+SCOGS Report Number: =T("90")
+----------------------------------------
+ Lard oil (packaging)
+Other Names: nan
+SCOGS Report Number: =T("91")
+----------------------------------------
+ Lard (packaging)
+Other Names: nan
+SCOGS Report Number: =T("91")
+----------------------------------------
+ Biotin
+Other Names: nan
+SCOGS Report Number: =T("92")
+----------------------------------------
+ D- or DL- Sodium pantothenate
+Other Names: nan
+SCOGS Report Number: =T("93")
+----------------------------------------
+ D-Pantothenyl alcohol
+Other Names: nan
+SCOGS Report Number: =T("93")
+----------------------------------------
+ D- or DL- Calcium pantothenate
+Other Names: nan
+SCOGS Report Number: =T("93")
+----------------------------------------
+ Starter distillate
+Other Names: nan
+SCOGS Report Number: =T("94")
+----------------------------------------
+ Diacetyl
+Other Names: nan
+SCOGS Report Number: =T("94")
+----------------------------------------
+ Vitamin D3 (cholecalciferol)
+Other Names: nan
+SCOGS Report Number: =T("95")
+----------------------------------------
+ Vitamin D2 (ergocalciferol)
+Other Names: nan
+SCOGS Report Number: =T("95")
+----------------------------------------
+ Sodium caseinate
+Other Names: nan
+SCOGS Report Number: =T("96")
+----------------------------------------
+ Casein
+Other Names: nan
+SCOGS Report Number: =T("96")
+----------------------------------------
+ Calcium caseinate
+Other Names: nan
+SCOGS Report Number: =T("96")
+----------------------------------------
+ Nickel (elemental)
+Other Names: nan
+SCOGS Report Number: =T("97")
+----------------------------------------
+ Cuprous iodide
+Other Names:  copper(1+) iodide
+SCOGS Report Number: =T("98")
+----------------------------------------
+ Copper (cupric) sulfate
+Other Names:  copper(2+) sulfate, cupric sulfate
+SCOGS Report Number: =T("98")
+----------------------------------------
+ Copper (cupric) gluconate
+Other Names:  copper(2+) gluconate, cupric gluconate
+SCOGS Report Number: =T("98")
+----------------------------------------
+ Hydrochloric acid
+Other Names: nan
+SCOGS Report Number: =T("99")
+----------------------------------------
+ Pyridoxine hydrochloride
+Other Names: nan
+SCOGS Report Number: =T("100")
+----------------------------------------
+ Pyridoxine
+Other Names: nan
+SCOGS Report Number: =T("100")
+----------------------------------------
+ Soy protein isolate
+Other Names: nan
+SCOGS Report Number: =T("101")
+----------------------------------------
+ Sodium chloride
+Other Names: nan
+SCOGS Report Number: =T("102")
+----------------------------------------
+ Potassium chloride
+Other Names: nan
+SCOGS Report Number: =T("102")
+----------------------------------------
+ Urea
+Other Names: nan
+SCOGS Report Number: =T("103")
+----------------------------------------
+ Vitamin B12 (cyanocobalamin)
+Other Names: nan
+SCOGS Report Number: =T("104")
+----------------------------------------
+ Lecithin, hydrogen peroxide bleached
+Other Names: nan
+SCOGS Report Number: =T("106")
+----------------------------------------
+ Lecithin
+Other Names: nan
+SCOGS Report Number: =T("106")
+----------------------------------------
+ L(+)-tartaric acid
+Other Names: nan
+SCOGS Report Number: =T("107")
+----------------------------------------
+ L(+)-sodium tartrate
+Other Names: nan
+SCOGS Report Number: =T("107")
+----------------------------------------
+ L(+)-sodium potassium tartrate
+Other Names: nan
+SCOGS Report Number: =T("107")
+----------------------------------------
+ L(+)-potassium acid tartrate
+Other Names: nan
+SCOGS Report Number: =T("107")
+----------------------------------------
+ Niacinamide (nicotinamide)
+Other Names: nan
+SCOGS Report Number: =T("108")
+----------------------------------------
+ Niacin (nicotinic acid)
+Other Names: nan
+SCOGS Report Number: =T("108")
+----------------------------------------
+ Thiamine mononitrate
+Other Names: nan
+SCOGS Report Number: =T("109")
+----------------------------------------
+ Thiamine hydrochloride
+Other Names: nan
+SCOGS Report Number: =T("109")
+----------------------------------------
+ Carotene (beta-carotene)
+Other Names: nan
+SCOGS Report Number: =T("111")
+----------------------------------------
+ Helium gas
+Other Names: nan
+SCOGS Report Number: =T("112")
+----------------------------------------
+ Hydrogen peroxide
+Other Names: nan
+SCOGS Report Number: =T("113")
+----------------------------------------
+ Riboflavin-5'-phosphate
+Other Names: nan
+SCOGS Report Number: =T("114")
+----------------------------------------
+ Riboflavin
+Other Names: nan
+SCOGS Report Number: =T("114")
+----------------------------------------
+ Wheat Starch
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Waxy Maize Starch
+Other Names:  cornstarch, waxy
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Tapioca Starch
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Succinyl Distarch Glycerol
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Starch, Sodium Hypochlorite oxidized
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Starch Sodium Succinate
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Starch Sodium Octenyl Succinate
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Starch Aluminum Octenyl Succinate
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Starch Acetate
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Sodium Hydroxide Gelatinized Starch
+Other Names:  starch, gelatinized
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Rice Starch
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Pregelatinized starch
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Potato starch
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Phosphated Distarch Phosphate
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Monostarch Phosphate
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Milo Starch
+Other Names:  grain sorghum starch
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Hydroxypropyl Starch, oxidized
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Hydroxypropyl Starch
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Hydroxypropyl Distarch Phosphate
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Hydroxypropyl Distarch Glycerol
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ High Amylose Cornstarch
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Distarch Phosphate
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Distarch Oxypropanol
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Distarch Glycerol
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Cornstarch
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Bleached Starch
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Arrowroot Starch
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Acid Modified Starch
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Acetylated Distarch Oxypropanol
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Acetylated Distarch Phosphate
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Acetylated Distarch Glycerol
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ Acetylated Distarch Adipate
+Other Names: nan
+SCOGS Report Number: =T("115")
+----------------------------------------
+ D(-)-Lactic acid
+Other Names: nan
+SCOGS Report Number: =T("116")
+----------------------------------------
+ Lactic acid
+Other Names: nan
+SCOGS Report Number: =T("116")
+----------------------------------------
+ L(+)-lactic acid
+Other Names: nan
+SCOGS Report Number: =T("116")
+----------------------------------------
+ L(+)-calcium lactate
+Other Names: nan
+SCOGS Report Number: =T("116")
+----------------------------------------
+ Calcium Lactate
+Other Names: nan
+SCOGS Report Number: =T("116")
+----------------------------------------
+ Carbon dioxide
+Other Names: nan
+SCOGS Report Number: =T("117")
+----------------------------------------
+ Vitamin A palmitate
+Other Names: nan
+SCOGS Report Number: =T("118")
+----------------------------------------
+ Vitamin A acetate
+Other Names: nan
+SCOGS Report Number: =T("118")
+----------------------------------------
+ Vitamin A
+Other Names: nan
+SCOGS Report Number: =T("118")
+----------------------------------------
+ Monosodium L-glutamate
+Other Names:  MSG
+SCOGS Report Number:  37a
+----------------------------------------
+ Monopotassium L-glutamate
+Other Names: nan
+SCOGS Report Number:  37a
+----------------------------------------
+ Monoammonium L-glutamate
+Other Names: nan
+SCOGS Report Number:  37a
+----------------------------------------
+ L-Glutamic acid hydrochloride
+Other Names: nan
+SCOGS Report Number:  37a
+----------------------------------------
+ L-Glutamic acid
+Other Names: nan
+SCOGS Report Number:  37a
+----------------------------------------
+ Yeast autolyzates
+Other Names: nan
+SCOGS Report Number:  37b
+----------------------------------------
+ Soy sauces
+Other Names: nan
+SCOGS Report Number:  37b
+----------------------------------------
+ Enzymatically hydrolyzed protein
+Other Names: nan
+SCOGS Report Number:  37b
+----------------------------------------
+ Acid hydrolyzed proteins
+Other Names: nan
+SCOGS Report Number:  37b
+----------------------------------------
+ Enzymatically hydrolyzed casein
+Other Names: nan
+SCOGS Report Number:  37b
+----------------------------------------
+ Beeswax (yellow or white)
+Other Names: nan
+SCOGS Report Number:  46a
+----------------------------------------
+ Japan wax (packaging)
+Other Names: nan
+SCOGS Report Number:  46b
+----------------------------------------
+ Iron - Report on Clinical Research Protocols to Elucidate The Possible Hazards of Increased Iron Enrichment of Cereal Products
+Other Names: nan
+SCOGS Report Number:  none assigned by NTIS
+----------------------------------------
+ Iron - Report on Bioavailability and Utilization of Iron
+Other Names: nan
+SCOGS Report Number:  PB 224 122/AS
+----------------------------------------
+ Dietary Iron
+Other Names: nan
+SCOGS Report Number:  PB-218 836
+----------------------------------------

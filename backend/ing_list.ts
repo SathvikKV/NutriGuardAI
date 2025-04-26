@@ -1,0 +1,223 @@
+const ingredients: Ingredient[] = [
+  // Herbs
+  {
+    name: "Ashwagandha",
+    category: "Herbs",
+    description: "Adaptogen herb for stress relief.",
+    tags: [{ name: "Adaptogen", color: "green" }],
+    image: "/placeholder.svg",
+  },
+  {
+    name: "Turmeric",
+    category: "Herbs",
+    description: "Anti-inflammatory golden spice.",
+    tags: [{ name: "Anti-inflammatory", color: "green" }],
+    image: "/placeholder.svg",
+  },
+  {
+    name: "Ginger",
+    category: "Herbs",
+    description: "Root used for digestion and nausea.",
+    tags: [{ name: "Digestive", color: "orange" }],
+    image: "/placeholder.svg",
+  },
+  {
+    name: "Echinacea",
+    category: "Herbs",
+    description: "Boosts immune health.",
+    tags: [{ name: "Immune Support", color: "blue" }],
+    image: "/placeholder.svg",
+  },
+  {
+    name: "Holy Basil",
+    category: "Herbs",
+    description: "Balances stress and blood sugar.",
+    tags: [{ name: "Adaptogen", color: "green" }],
+    image: "/placeholder.svg",
+  },
+
+  // Probiotics
+  {
+    name: "Lactobacillus",
+    category: "Probiotics",
+    description: "Common probiotic bacteria.",
+    tags: [{ name: "Gut Health", color: "purple" }],
+    image: "/placeholder.svg",
+  },
+  {
+    name: "Bifidobacterium",
+    category: "Probiotics",
+    description: "Supports digestion and immunity.",
+    tags: [{ name: "Probiotic", color: "purple" }],
+    image: "/placeholder.svg",
+  },
+  {
+    name: "Saccharomyces Boulardii",
+    category: "Probiotics",
+    description: "Beneficial yeast probiotic.",
+    tags: [{ name: "Digestive Health", color: "green" }],
+    image: "/placeholder.svg",
+  },
+  {
+    name: "Streptococcus Thermophilus",
+    category: "Probiotics",
+    description: "Used in yogurt fermentation.",
+    tags: [{ name: "Gut Flora", color: "blue" }],
+    image: "/placeholder.svg",
+  },
+  {
+    name: "Bacillus Coagulans",
+    category: "Probiotics",
+    description: "Helps gut resilience.",
+    tags: [{ name: "Gut Health", color: "green" }],
+    image: "/placeholder.svg",
+  },
+
+  // Antioxidants
+  {
+    name: "Vitamin C",
+    category: "Antioxidants",
+    description: "Essential immune-boosting vitamin.",
+    tags: [{ name: "Antioxidant", color: "yellow" }],
+    image: "/placeholder.svg",
+  },
+  {
+    name: "Vitamin E",
+    category: "Antioxidants",
+    description: "Protects cells from oxidative stress.",
+    tags: [{ name: "Skin Health", color: "orange" }],
+    image: "/placeholder.svg",
+  },
+  {
+    name: "Selenium",
+    category: "Antioxidants",
+    description: "Mineral antioxidant defense.",
+    tags: [{ name: "Immunity", color: "blue" }],
+    image: "/placeholder.svg",
+  },
+  {
+    name: "CoQ10",
+    category: "Antioxidants",
+    description: "Supports heart and mitochondrial health.",
+    tags: [{ name: "Heart Health", color: "red" }],
+    image: "/placeholder.svg",
+  },
+  {
+    name: "Glutathione",
+    category: "Antioxidants",
+    description: "Master antioxidant made by the body.",
+    tags: [{ name: "Cell Detox", color: "green" }],
+    image: "/placeholder.svg",
+  },
+
+  // Color Additives
+  {
+    name: "Red 40",
+    category: "Color Additives",
+    description: "Artificial coloring often used in foods.",
+    tags: [{ name: "Synthetic Dye", color: "red" }],
+    image: "/placeholder.svg",
+  },
+  {
+    name: "Yellow 5",
+    category: "Color Additives",
+    description: "Synthetic lemon yellow dye.",
+    tags: [{ name: "Synthetic Dye", color: "yellow" }],
+    image: "/placeholder.svg",
+  },
+  {
+    name: "Blue 1",
+    category: "Color Additives",
+    description: "Bright blue synthetic coloring.",
+    tags: [{ name: "Synthetic Dye", color: "blue" }],
+    image: "/placeholder.svg",
+  },
+  {
+    name: "Titanium Dioxide",
+    category: "Color Additives",
+    description: "White pigment used in foods.",
+    tags: [{ name: "Color Additive", color: "gray" }],
+    image: "/placeholder.svg",
+  },
+  {
+    name: "Caramel Color",
+    category: "Color Additives",
+    description: "Colorant made by heating sugars.",
+    tags: [{ name: "Natural Colorant", color: "brown" }],
+    image: "/placeholder.svg",
+  },
+
+  // Food Substances
+  {
+    name: "Citric Acid",
+    category: "Food Substances",
+    description: "Acidulant used for tart flavor.",
+    tags: [{ name: "Preservative", color: "yellow" }],
+    image: "/placeholder.svg",
+  },
+  {
+    name: "Maltodextrin",
+    category: "Food Substances",
+    description: "Carbohydrate from starch.",
+    tags: [{ name: "Thickener", color: "orange" }],
+    image: "/placeholder.svg",
+  },
+  {
+    name: "Guar Gum",
+    category: "Food Substances",
+    description: "Thickening agent from guar beans.",
+    tags: [{ name: "Stabilizer", color: "green" }],
+    image: "/placeholder.svg",
+  },
+  {
+    name: "Sodium Benzoate",
+    category: "Food Substances",
+    description: "Common preservative.",
+    tags: [{ name: "Preservative", color: "blue" }],
+    image: "/placeholder.svg",
+  },
+  {
+    name: "Sorbitol",
+    category: "Food Substances",
+    description: "Sugar alcohol sweetener.",
+    tags: [{ name: "Sweetener", color: "purple" }],
+    image: "/placeholder.svg",
+  },
+
+  // Banned Substances
+  {
+    name: "Ephedra",
+    category: "Banned Substances",
+    description: "Banned stimulant formerly used in weight loss.",
+    tags: [{ name: "Banned", color: "red" }],
+    image: "/placeholder.svg",
+  },
+  {
+    name: "Phenylbutazone",
+    category: "Banned Substances",
+    description: "NSAID banned in food animals.",
+    tags: [{ name: "Banned", color: "red" }],
+    image: "/placeholder.svg",
+  },
+  {
+    name: "Ractopamine",
+    category: "Banned Substances",
+    description: "Banned livestock growth agent.",
+    tags: [{ name: "Banned", color: "red" }],
+    image: "/placeholder.svg",
+  },
+  {
+    name: "Melamine",
+    category: "Banned Substances",
+    description: "Illegal food additive causing toxicity.",
+    tags: [{ name: "Banned", color: "red" }],
+    image: "/placeholder.svg",
+  },
+  {
+    name: "Chloramphenicol",
+    category: "Banned Substances",
+    description: "Banned antibiotic in animal foods.",
+    tags: [{ name: "Banned", color: "red" }],
+    image: "/placeholder.svg",
+  },
+];

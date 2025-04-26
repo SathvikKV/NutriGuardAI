@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+sqlalchemy
+openai
+python-jose
+passlib[bcrypt]
+pinecone-client
+azure-ai-formrecognizer
+azure-core
+duckduckgo-search
+python-multipart
+psycopg2
+pydantic[email]
