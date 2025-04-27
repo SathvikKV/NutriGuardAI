@@ -12,7 +12,7 @@
 
 **NutriGuard AI** is an end-to-end nutrition and ingredient assistant platform that simplifies label reading, ingredient analysis, meal logging, and nutrition insights using OCR, RAG (Retrieval-Augmented Generation), modern LLMs, and full-stack engineering.
 
-![NutriGuard AI Screenshot](docs/img/ocr.png)
+![NutriGuard AI Screenshot](docs/img/ocr.PNG)
 
 ## 🌟 Live Demo
 
@@ -246,22 +246,22 @@ frontend/nutriguard-ai/
 ## 📸 Screenshots
 
 ### Login Screen
-![Login Screen](docs/img/login.png)
+![Login Screen](docs/img/login.PNG)
 
 ### OCR Upload
-![OCR Upload](docs/img/ocr.png)
+![OCR Upload](docs/img/ocr.PNG)
 
 ### Ingredient Analysis
-![Ingredient Analysist](docs/img/ingredients.png)
+![Ingredient Analysist](docs/img/ingredients.PNG)
 
 ### Meal Journal
-![Meal Journal](docs/img/journal.png)
+![Meal Journal](docs/img/journal.PNG)
 
 ### AI Nutritionist Chat
-![AI Nutritionist Chat](docs/img/chat.png)
+![AI Nutritionist Chat](docs/img/chat.PNG)
 
 ### Nutrition Summary
-![Nutrition Summary](docs/img/summary.png)
+![Nutrition Summary](docs/img/summary.PNG)
 
 ## Challenges and Solutions
 
