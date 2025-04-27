@@ -1,5 +1,8 @@
 # 🥗 NutriGuard AI
 
+
+
+
 [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
 [![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
@@ -9,12 +12,14 @@
 
 **NutriGuard AI** is an end-to-end nutrition and ingredient assistant platform that simplifies label reading, ingredient analysis, meal logging, and nutrition insights using OCR, RAG (Retrieval-Augmented Generation), modern LLMs, and full-stack engineering.
 
-![NutriGuard AI Screenshot](docs/img/architecture_diagram.png)
+![NutriGuard AI Screenshot](docs/img/ocr.png)
 
 ## 🌟 Live Demo
 
 - **Frontend Application**: [http://3.95.239.139:3000/](http://3.95.239.139:3000/)
 - **Backend API Documentation**: [http://34.201.119.237:8001/docs](http://34.201.119.237:8001/docs)
+- **Documentation Website**: [https://sathvikkv.github.io/NutriGuardAI/nutriguard-website.html](https://sathvikkv.github.io/NutriGuardAI/nutriguard-website.html)
+- **Video Demo**: []()
 
 ## 📌 Table of Contents
 
@@ -76,7 +81,7 @@ The system aims to address common nutrition challenges by making complex food in
 
 NutriGuard AI implements a modern microservices architecture:
 
-![Architecture Diagram](https://via.placeholder.com/800x500.png?text=NutriGuard+AI+Architecture)
+![Architecture Diagram](docs/img/architecture_diagram.png)
 
 ### High-Level Components
 
@@ -241,22 +246,22 @@ frontend/nutriguard-ai/
 ## 📸 Screenshots
 
 ### Login Screen
-![Login Screen](https://via.placeholder.com/400x250.png?text=Login+Screen)
+![Login Screen](docs/img/login.png)
 
 ### OCR Upload
-![OCR Upload](https://via.placeholder.com/400x250.png?text=OCR+Upload)
+![OCR Upload](docs/img/ocr.png)
 
 ### Ingredient Analysis
-![Ingredient Analysis](https://via.placeholder.com/400x250.png?text=Ingredient+Analysis)
+![Ingredient Analysist](docs/img/ingredients.png)
 
 ### Meal Journal
-![Meal Journal](https://via.placeholder.com/400x250.png?text=Meal+Journal)
+![Meal Journal](docs/img/journal.png)
 
 ### AI Nutritionist Chat
-![AI Chat](https://via.placeholder.com/400x250.png?text=AI+Chat)
+![AI Nutritionist Chat](docs/img/chat.png)
 
 ### Nutrition Summary
-![Nutrition Summary](https://via.placeholder.com/400x250.png?text=Nutrition+Summary)
+![Nutrition Summary](docs/img/summary.png)
 
 ## Challenges and Solutions
 
@@ -330,6 +335,6 @@ This project is licensed
 
 ---
 
-Developed with Sathvik Vadavatha
+Developed by Sathvik Vadavatha
 
-[GitHub Repository](https://github.com/yourusername/nutriguard-ai) | [Live Demo](http://3.95.239.139:3000/) | [API Docs](http://34.201.119.237:8001/docs)
+[GitHub Repository](https://github.com/SathvikKV/NutriGuardAI) | [Live Demo](http://3.95.239.139:3000/) | [API Docs](http://34.201.119.237:8001/docs)
