@@ -19,7 +19,7 @@
 - **Frontend Application**: [http://3.95.239.139:3000/](http://3.95.239.139:3000/)
 - **Backend API Documentation**: [http://34.201.119.237:8001/docs](http://34.201.119.237:8001/docs)
 - **Documentation Website**: [https://sathvikkv.github.io/NutriGuardAI/nutriguard-website.html](https://sathvikkv.github.io/NutriGuardAI/nutriguard-website.html)
-- **Video Demo**: []()
+- **Video Demo**: [https://drive.google.com/file/d/1vCVXUKPJMJG7q6ZkE2Y9hgxA3dAwM8k5/view?usp=sharing](https://drive.google.com/file/d/1vCVXUKPJMJG7q6ZkE2Y9hgxA3dAwM8k5/view?usp=sharing)
 
 ## 📌 Table of Contents
 
