@@ -1,0 +1,2 @@
+DEBUG: Loaded rag_engine from: /app/app/core/rag_engine.py
+DEBUG: RELEVANCE_THRESHOLD = 0.65

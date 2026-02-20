@@ -52,10 +52,25 @@ Notes: {payload.notes or 'None'}
             temperature=0.3,
         )
 
-        parsed_json = response.choices[0].message.content.strip()
-        parsed_data = eval(parsed_json)  # Optionally replace this with `json.loads(...)` for safety
+        raw_content = response.choices[0].message.content.strip()
+        
+        # Strip markdown fences if present
+        if raw_content.startswith("```"):
+            import re
+            match = re.search(r"```(?:json)?(.*?)```", raw_content, re.DOTALL)
+            if match:
+                raw_content = match.group(1).strip()
+        
+        import json
+        try:
+            parsed_data = json.loads(raw_content)
+        except json.JSONDecodeError:
+            # Fallback: try to repair or just return raw error
+            print(f"❌ JSON Decode Error. Raw: {raw_content}")
+            raise HTTPException(status_code=500, detail="Failed to parse AI response")
 
         return parsed_data
 
     except Exception as e:
+        print(f"❌ Macro Generation Error: {e}")
         raise HTTPException(status_code=500, detail=str(e))

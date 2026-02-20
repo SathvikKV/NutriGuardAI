@@ -28,7 +28,7 @@ def log_meal(meal: MealCreate, db: Session = Depends(get_db)):
 
 # GET /meals/{user_id} → get meals by user
 @router.get("/user/{user_id}", response_model=List[MealResponse])
-def get_meals_by_user(user_id: int, db: Session = Depends(get_db)):
+def get_meals_by_user(user_id: str, db: Session = Depends(get_db)):
     return meal_crud.get_meals_by_user(db, user_id)
 
 # GET /meals/{meal_id} → get one meal with items

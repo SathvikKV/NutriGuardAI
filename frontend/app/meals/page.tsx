@@ -2,8 +2,14 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import axios from "axios";
+// import axios from "axios"; // Removed
 import { getUserId } from "@/lib/auth";
+import {
+  getMealHistory,
+  deleteMeal,
+  generateMacros,
+  createMealLog
+} from "@/services/api";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -62,13 +68,14 @@ export default function MealsPage() {
     }
   }, [router, currentDate]);
 
-  const fetchMeals = async (userId: number) => {
+  const fetchMeals = async (userId: string | number) => {
     try {
-      const res = await axios.get(
-        `http://localhost:8000/api/v1/meals/user/${userId}`
-      );
+      const res = await getMealHistory(userId);
       const filteredMeals = (res.data as any[]).filter((meal) => {
+        // Compare just the YYYY-MM-DD part to avoid timezone issues for now
+        // The backend stores datetime, but for daily view we just want the day match.
         const mealDate = new Date(meal.meal_time);
+
         return (
           mealDate.getDate() === currentDate.getDate() &&
           mealDate.getMonth() === currentDate.getMonth() &&
@@ -105,7 +112,7 @@ export default function MealsPage() {
 
   const handleDeleteMeal = async (id: number) => {
     try {
-      await axios.delete(`http://localhost:8000/api/v1/meals/${id}`);
+      await deleteMeal(id);
       setMeals(meals.filter((meal) => meal.id !== id));
     } catch (err) {
       console.error("Failed to delete meal:", err);
@@ -119,16 +126,13 @@ export default function MealsPage() {
     const formattedTime = new Date(meal.time || currentDate).toISOString();
 
     try {
-      const macroRes = await axios.post<MacrosResponse>(
-        "http://localhost:8000/meals/generate-macros",
-        {
-          meal_name: meal.name,
-          meal_type: meal.type,
-          meal_time: formattedTime,
-          notes: meal.notes || "",
-          quantity: meal.quantity || "1 serving",
-        }
-      );
+      const macroRes = await generateMacros({
+        meal_name: meal.name,
+        meal_type: meal.type,
+        meal_time: formattedTime,
+        notes: meal.notes || "",
+        quantity: meal.quantity || "1 serving",
+      });
 
       const macros: MacrosResponse = macroRes.data;
       console.log("[Generated Macros]", macros);
@@ -155,10 +159,7 @@ export default function MealsPage() {
         ],
       };
 
-      const res = await axios.post(
-        "http://localhost:8000/api/v1/meals/",
-        payload
-      );
+      const res = await createMealLog(payload);
       console.log("[Saved Meal]", res.data);
 
       setMeals((prev) => [...prev, res.data]);

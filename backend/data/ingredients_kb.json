@@ -1,0 +1,79 @@
+[
+  {
+    "id": "aspartame",
+    "name": "Aspartame",
+    "category": "Artificial Sweetener",
+    "description": "Aspartame is a low-calorie artificial sweetener, approximately 200 times sweeter than sucrose (table sugar). It is widely used in sugar-free products like diet sodas, chewing gum, and gelatin. Aspartame is composed of two amino acids: aspartic acid and phenylalanine.",
+    "scientific_consensus": "The FDA and EFSA have deemed aspartame safe for the general population at current levels of consumption. However, it must be avoided by individuals with phenylketonuria (PKU), a rare genetic disorder that prevents the metabolism of phenylalanine.",
+    "safety_rating": "Safe (with warnings for PKU)",
+    "common_uses": ["Diet Soda", "Sugar-free Gum", "Yogurt", "Tabletop Sweeteners"],
+    "risks": ["Headaches in sensitive individuals", "Danger for PKU patients"],
+    "source": "FDA, EFSA"
+  },
+  {
+    "id": "red-40",
+    "name": "Red 40 (Allura Red AC)",
+    "category": "Synthetic Food Dye",
+    "description": "Red 40 is a petroleum-based azo dye used to color foods and beverages red. It is one of the most widely used food dyes in the US.",
+    "scientific_consensus": "Approved by the FDA for use in food. However, some studies suggest a link between artificial food dyes and hyperactivity (ADHD symptoms) in sensitive children. The EU requires a warning label on products containing Red 40.",
+    "safety_rating": "Controversial / Safe in moderation",
+    "common_uses": ["Candy", "Cereal", "Sports Drinks", "Baked Goods"],
+    "risks": ["Hyperactivity in children", "Allergic reactions (rare)"],
+    "source": "FDA, Southampton Study"
+  },
+  {
+    "id": "high-fructose-corn-syrup",
+    "name": "High Fructose Corn Syrup (HFCS)",
+    "category": "Added Sugar",
+    "description": "HFCS is a sweetener made from corn starch that has been processed to convert some of its glucose into fructose. It is chemically similar to table sugar (sucrose) but cheaper to produce.",
+    "scientific_consensus": "Nutritionally equivalent to table sugar, but its ubiquity in processed foods contributes to excessive calorie intake, obesity, and metabolic syndrome. Excessive fructose consumption can strain the liver.",
+    "safety_rating": "Safe but promote moderation",
+    "common_uses": ["Soda", "Processed Foods", "Candy", "Fast Food"],
+    "risks": ["Obesity", "Diabetes", "Fatty Liver Disease"],
+    "source": "USDA, Mayo Clinic"
+  },
+  {
+    "id": "chem-preservatives",
+    "name": "Sodium Benzoate",
+    "category": "Preservative",
+    "description": "Sodium benzoate is a preservative used to prevent the growth of bacteria and mold in acidic foods like soda, jams, and pickles.",
+    "scientific_consensus": "Generally Recognized As Safe (GRAS) by the FDA. However, when combined with Vitamin C (ascorbic acid) under heat/light, it can form benzene, a known carcinogen. Levels are strictly regulated.",
+    "safety_rating": "Safe (Conditional)",
+    "common_uses": ["Soda", "Fruit Juices", "Pickles", "Salad Dressings"],
+    "risks": ["Benzene formation (rare)", "Hyperactivity"],
+    "source": "FDA"
+  },
+  {
+    "id": "titanium-dioxide",
+    "name": "Titanium Dioxide (E171)",
+    "category": "Whitening Agent",
+    "description": "Used to make foods look whiter or more opaque. Common in candies, chewing gum, and pastries.",
+    "scientific_consensus": "The FDA considers it safe. However, the EFSA (European Food Safety Authority) banned it as a food additive in 2022 due to concerns that nanoparticles could damage DNA (genotoxicity).",
+    "safety_rating": "Controversial (Banned in EU)",
+    "common_uses": ["Chewing Gum", "Candies", "Pastries", "Coffee Creamers"],
+    "risks": ["Potential Genotoxicity", "Gut inflammation"],
+    "source": "FDA vs EFSA"
+  },
+  {
+    "id": "monosodium-glutamate",
+    "name": "Monosodium Glutamate (MSG)",
+    "category": "Flavor Enhancer",
+    "description": "MSG is a sodium salt of glutamic acid, an amino acid found naturally in many foods like tomatoes and cheese. It enhances savory (umami) flavor.",
+    "scientific_consensus": "Extensive research shows MSG is safe for most people. 'Chinese Restaurant Syndrome' (headache, numbness) has been largely debunked as a myth or placebo effect in controlled studies, though a small percentage of people may have mild sensitivity.",
+    "safety_rating": "Safe",
+    "common_uses": ["Savory Snacks", "Soups", "Fast Food", "Seasoning Blends"],
+    "risks": ["Short-term sensitivity (rare)"],
+    "source": "FDA, ACS"
+  },
+  {
+    "id": "carrageenan",
+    "name": "Carrageenan",
+    "category": "Thickener / Stabilizer",
+    "description": "Derived from red seaweed, used to thicken and stabilize foods like soy milk, ice cream, and deli meats.",
+    "scientific_consensus": "Food-grade carrageenan is safe. However, 'degraded' carrageenan (poligeenan) causes inflammation and is not allowed in food. Some animal studies suggest food-grade carrageenan might still cause gut inflammation in sensitive individuals.",
+    "safety_rating": "Safe / Caution for IBS",
+    "common_uses": ["Almond Milk", "Ice Cream", "Yogurt", "Deli Meat"],
+    "risks": ["Digestive distress", "Inflammation"],
+    "source": "FDA, Cornucopia Institute"
+  }
+]

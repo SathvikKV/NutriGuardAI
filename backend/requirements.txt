@@ -6,10 +6,15 @@ sqlalchemy
 openai
 python-jose
 passlib[bcrypt]
-pinecone
-azure-ai-formrecognizer
-azure-core
-duckduckgo-search
 python-multipart
 psycopg2-binary
 pydantic[email]
+boto3
+supabase
+vecs
+beautifulsoup4
+requests
+# pinecone  # Removed
+# azure-ai-formrecognizer # Removed
+# azure-core # Removed
+# duckduckgo-search # Removed

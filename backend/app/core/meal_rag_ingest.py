@@ -3,7 +3,7 @@
 from sqlalchemy.orm import Session
 from app.models.meal import Meal, MealItem
 from app.core.chunk_meals import format_meal_as_text
-from app.core.pinecone_utils import upsert_embeddings
+# from app.core.pinecone_utils import upsert_embeddings
 from openai import OpenAI
 from dotenv import load_dotenv
 import os
@@ -33,5 +33,5 @@ def ingest_user_meals(db: Session, user_id: int):
         )
         vectors.append(vector)
 
-    upsert_embeddings(vectors, index_name=os.getenv("PINECONE_MEAL_INDEX"))
-    return {"status": "success", "count": len(vectors)}
+    # upsert_embeddings(vectors, index_name=os.getenv("PINECONE_MEAL_INDEX"))
+    return {"status": "success", "count": 0, "message": "Vector ingestion temporarily disabled"}

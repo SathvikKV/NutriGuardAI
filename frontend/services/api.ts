@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:8000/api/v1",
+  baseURL: "http://localhost:8001/api/v1",
   headers: {
     "Content-Type": "application/json",
   },
@@ -69,6 +69,10 @@ export const queryMealInsights = async (
   query: string
 ) => {
   return api.post(`/meals/query/${userId}?query=${encodeURIComponent(query)}`);
+};
+
+export const generateMacros = async (mealData: any) => {
+  return api.post("/meals/generate-macros", mealData);
 };
 
 export default api;

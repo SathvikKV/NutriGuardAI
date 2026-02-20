@@ -1,39 +1,20 @@
-import os
-from dotenv import load_dotenv
-from pinecone import Pinecone, PodSpec  # For non-serverless (Starter Tier)
+# app/core/pinecone_utils.py
+# Deprecated: Replaced by Supabase Vecs
 
-load_dotenv()
+# from pinecone import Pinecone, PodSpec
 
-PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
-PINECONE_ENV = os.getenv("PINECONE_ENV")
-PINECONE_INDEX = os.getenv("PINECONE_INDEX")
+def upsert_embeddings(vectors, index_name=None):
+    print("Pinecone disabled. Skipping upsert.")
+    return
 
-# Initialize Pinecone Client
-pc = Pinecone(api_key=PINECONE_API_KEY)
-
-# Connect to existing index
-index = pc.Index(PINECONE_INDEX)
-
-# Insert vectors
-def upsert_embeddings(vectors: list, index_name=None):
-    """
-    vectors = [(id, embedding, metadata), ...]
-    """
-    target_index = pc.Index(index_name or os.getenv("PINECONE_INDEX"))
-    target_index.upsert(vectors=vectors)
-
-
-# Search vectors
 def search_embeddings(query_embedding, index_name=None, top_k=10):
-    if not index_name:
-        index_name = os.getenv("PINECONE_INDEX")  # fallback default
+    print("Pinecone disabled. Returning empty results.")
+    return {"matches": []}
 
-    index = pc.Index(index_name)
+def delete_embedding(vector_id: str, index_name=None):
+    print("Pinecone disabled. Skipping delete.")
+    return
 
-    results = index.query(
-        vector=query_embedding,
-        top_k=top_k,
-        include_metadata=True
-    )
-
-    return results
+def generate_embedding(text: str):
+    # This is actually OpenAI logic, but keeping stub here if imported
+    return []

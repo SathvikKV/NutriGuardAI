@@ -38,7 +38,7 @@ class MealBase(BaseModel):
 
 
 class MealCreate(MealBase):
-    user_id: int
+    user_id: str
     items: List[MealItemCreate]  # Nested creation
 
 

@@ -27,14 +27,14 @@ app.add_middleware(
 
 # Include OCR routes
 app.include_router(ocr_routes.router, prefix="/api/v1/ocr")
-app.include_router(ocr_routes.router, prefix="/api/v1/ocr")
+
 app.include_router(ask_routes.router, prefix="/api/v1")
 app.include_router(analyze_routes.router, prefix="/api/v1")
 
 app.include_router(user_routes.router, prefix="/api/v1/user")
 app.include_router(meal_routes.router, prefix="/api/v1")
 
-app.include_router(macro_routes.router)
+app.include_router(macro_routes.router, prefix="/api/v1")
 app.include_router(meal_rag_routes.router, prefix="/api/v1")
 app.include_router(meal_stats_routes.router)
 app.include_router(meal_summary_routes.router, prefix="/api/v1")

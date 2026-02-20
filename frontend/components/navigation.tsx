@@ -4,8 +4,8 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { Search } from "lucide-react";
-import Logo from "@/components/logo";
-import { logout } from "@/lib/auth";
+// import Logo from "@/components/logo"; // Assuming Logo exists or I should check. Navigation.tsx line 7 imports it.
+import { supabase } from "@/lib/supabase";
 
 const navItems = [
   {
@@ -24,21 +24,28 @@ const navItems = [
     name: "AI Chat",
     href: "/chat",
   },
+  {
+    name: "Scan",
+    href: "/scan",
+  },
 ];
 
 export default function Navigation() {
   const pathname = usePathname();
   const router = useRouter();
+  // const supabase = createClientComponentClient();
 
-  const handleLogout = () => {
-    logout();
+  const handleLogout = async () => {
+    await supabase.auth.signOut();
     router.push("/login");
   };
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 items-center">
-        <Logo />
+        <Link href="/" className="mr-6 flex items-center space-x-2">
+          <span className="hidden font-bold sm:inline-block">NutriGuard AI</span>
+        </Link>
         <nav className="ml-auto flex items-center gap-6">
           {navItems.map((item) => (
             <Link
@@ -54,9 +61,6 @@ export default function Navigation() {
               {item.name}
             </Link>
           ))}
-          <button className="ml-2">
-            <Search className="h-5 w-5 text-muted-foreground" />
-          </button>
           <button
             onClick={handleLogout}
             className="text-sm font-medium text-red-500 hover:text-red-600 transition-colors"

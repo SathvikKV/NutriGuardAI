@@ -12,7 +12,7 @@ class Meal(Base):
     __tablename__ = "meals"
 
     id = Column(Integer, primary_key=True, index=True)
-    user_id = Column(Integer, ForeignKey("users.id"), nullable=False)  # Link to User table
+    user_id = Column(String, ForeignKey("users.id"), nullable=False)  # Link to User table (UUID)
     meal_name = Column(String, nullable=False)
     meal_type = Column(String)  # Eg: breakfast/lunch/dinner/snack
     meal_time = Column(DateTime, nullable=False)
